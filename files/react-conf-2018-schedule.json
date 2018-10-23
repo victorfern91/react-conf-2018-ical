@@ -1,0 +1,322 @@
+[
+  {
+    "day": 0,
+    "time": "6:00pm",
+    "host": null,
+    "title": "Registration & Check-in",
+    "location": "outside of Baraka",
+    "descriptionUrl": null
+  },
+  {
+    "day": 0,
+    "time": "7:00pm",
+    "host": null,
+    "title": "Welcome Reception",
+    "location": "Lotus Court & Arabesque Lounge",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "6:30am",
+    "host": null,
+    "title": "Sunrise Yoga",
+    "location": "Baraka",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "7:00am",
+    "host": null,
+    "title": "Registration",
+    "location": "Medinas Foyer",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "7:00am",
+    "host": null,
+    "title": "Breakfast",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "9:00am",
+    "host": "Sophie Alpert & Dan Abramov",
+    "title": "React Today and Tomorrow",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?sophiebits"
+  },
+  {
+    "day": 1,
+    "time": "10:00am",
+    "host": "Ryan Florence",
+    "title": "90% Cleaner React",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?ryanflorence"
+  },
+  {
+    "day": 1,
+    "time": "10:30am",
+    "host": null,
+    "title": "Break",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "11:00am",
+    "host": "Christina Holland",
+    "title": "Building Todo The Game In A Cloud-Only Dev Environment",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?americanwombat"
+  },
+  {
+    "day": 1,
+    "time": "11:30am",
+    "host": "Matt Perry",
+    "title": "The path to a declaratively animated future",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?popmotionjs"
+  },
+  {
+    "day": 1,
+    "time": "12:00pm",
+    "host": null,
+    "title": "Lunch",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "1:30pm",
+    "host": null,
+    "title": "Lightning Talks",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "2:00pm",
+    "host": "Conor Hastings",
+    "title": "GraphQL without GraphQL - Backend Agnostic GraphQL inspired Queries For Colocating Data Requests With Components ",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?stillconor"
+  },
+  {
+    "day": 1,
+    "time": "2:30pm",
+    "host": "Nat Alison",
+    "title": "Playing With Polyhedra: Creating Beauty from Obsession",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?tesseralis"
+  },
+  {
+    "day": 1,
+    "time": "3:00pm",
+    "host": null,
+    "title": "Break",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "4:00pm",
+    "host": "Pulkit Kakkar",
+    "title": "Developing Immersive cross-platform AR and VR Apps using React-Native",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?pulkitkkr0"
+  },
+  {
+    "day": 1,
+    "time": "4:30pm",
+    "host": "Florian Rival",
+    "title": "Beyond web-apps: React, JavaScript and WebAssembly to port legacy native apps",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?FlorianRival"
+  },
+  {
+    "day": 1,
+    "time": "5:00pm",
+    "host": "Rodrigo Quezada",
+    "title": "React fo social change",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?rodikana"
+  },
+  {
+    "day": 1,
+    "time": "6:30pm",
+    "host": null,
+    "title": "Poolside Dinner Party",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "6:30pm",
+    "host": null,
+    "title": "Lawn Games",
+    "location": "La Menza Lawn",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "7:00pm",
+    "host": null,
+    "title": "Board Games",
+    "location": "Medinas Foyer",
+    "descriptionUrl": null
+  },
+  {
+    "day": 1,
+    "time": "9:00pm",
+    "host": null,
+    "title": "Karaoke",
+    "location": "Casablanca A,B,C",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "6:30am",
+    "host": null,
+    "title": "Sunrise Yoga",
+    "location": "Baraka",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "7:00am",
+    "host": null,
+    "title": "Registration",
+    "location": "Medinas Foyer",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "7:00am",
+    "host": null,
+    "title": "Breakfast",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "9:00am",
+    "host": "Andrew Clark & Brian Vaughn",
+    "title": "Concurrent Rendering in React",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?acdlite"
+  },
+  {
+    "day": 2,
+    "time": "9:30am",
+    "host": "Jared Palmer",
+    "title": "Moving to suspense",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?jaredpalmer"
+  },
+  {
+    "day": 2,
+    "time": "10:00am",
+    "host": "Elizabet Oliveira",
+    "title": "SVG illustrations as React Components",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?miuki_miu"
+  },
+  {
+    "day": 2,
+    "time": "10:30am",
+    "host": null,
+    "title": "Break",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "11:00am",
+    "host": "Chris Trevino",
+    "title": "The Missing Abstraction of Charting",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?darthtrevino"
+  },
+  {
+    "day": 2,
+    "time": "11:30am",
+    "host": "Damini Satya Kammakomati",
+    "title": "Elsa: AI Conversational Agent Aimed At Improving Mental Health For Women",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?Daminisatya"
+  },
+  {
+    "day": 2,
+    "time": "12:00pm",
+    "host": null,
+    "title": "Lunch",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "1:30pm",
+    "host": null,
+    "title": "Lightning Talks",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "2:00pm",
+    "host": "James Long",
+    "title": "Block the Main Thread",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?jlongster"
+  },
+  {
+    "day": 2,
+    "time": "2:30pm",
+    "host": "Parashuram N",
+    "title": "React Native's New Architecture",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?nparashuram"
+  },
+  {
+    "day": 2,
+    "time": "3:00pm",
+    "host": null,
+    "title": "Break",
+    "location": "",
+    "descriptionUrl": null
+  },
+  {
+    "day": 2,
+    "time": "4:00pm",
+    "host": "Tomáš Ehrlich",
+    "title": "Let React speak your language",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?tomas_ehrlich"
+  },
+  {
+    "day": 2,
+    "time": "4:30pm",
+    "host": "Thomas Aylott",
+    "title": "React for Designers with FramerX",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?subtlegradient"
+  },
+  {
+    "day": 2,
+    "time": "5:00pm",
+    "host": "Eyitayo Alimi",
+    "title": "Building a diverse and inclusive community.",
+    "location": null,
+    "descriptionUrl": "https://conf.reactjs.org/event.html?alimieyitayo"
+  },
+  {
+    "day": 2,
+    "time": "6:00pm",
+    "host": null,
+    "title": "Closing Remarks",
+    "location": "",
+    "descriptionUrl": null
+  }
+]
