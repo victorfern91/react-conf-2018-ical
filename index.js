@@ -3,7 +3,10 @@
  */
 
 const fs = require("fs");
-const { promisify } = require('util');
+const { promisify } = require("util");
+const timediff = require("timediff");
+const ics = require("ics");
+const convertTime = require("convert-time");
 const puppeteer = require("puppeteer");
 const REACT_CONF_SCHEDULE_URL = "https://conf.reactjs.org";
 const SCHEDULE_URL = `${REACT_CONF_SCHEDULE_URL}/schedule.html`;
@@ -11,9 +14,36 @@ const SCHEDULE_URL = `${REACT_CONF_SCHEDULE_URL}/schedule.html`;
 // Promisify methods
 const writeFile = promisify(fs.writeFile);
 
-/**
- *
- */
+function convertJSONtoICS(event, index, array) {
+    const year = 2018;
+    const month = 10;
+    const day = 24 +  event.day;
+    let duration = { hours: 1 };
+
+
+    if (index < array.length - 1) {
+        const nextEvent = array[index + 1];
+
+        duration = timediff(
+            `${year}-${month}-${day} ${convertTime(event.time)}`,
+            `${year}-${month}-${day} ${convertTime(nextEvent.time)}`,
+            "Hm"
+        );
+
+        duration = { hours: duration.hour, minutes: duration.minutes };
+    }
+
+
+    return {
+        start: [ 2018, 10, 24 +  event.day, convertTime(event.time, "hh"), convertTime(event.time, "mm") ],
+        duration,
+        title: `${event.title}${event.host ? " - " + event.host : ""}`,
+        location: "The Westin Lake Las Vegas",
+        url: SCHEDULE_URL,
+        geo: { lat: 36.1142318, lon: -114.9233787 }
+    };
+}
+
 try {
     (async () => {
         const browser = await puppeteer.launch();
@@ -44,22 +74,17 @@ try {
             }))
         );
 
-
-        /*Promise.all()
-
-        await schedule.map((event) => {
-            if (event.descriptionUrl) {
-                await page.goto(event.descriptionUrl);
-                await page.screenshot({ path: `files/${event.title}.png` })
-            }
-
-            return event;
-        });*/
+        await browser.close();
 
         await writeFile("files/react-conf-2018-schedule.json", JSON.stringify(schedule, null, 2));
 
-        await page.screenshot({path: "files/react.png"})
-        await browser.close()
+        const events = schedule.map(convertJSONtoICS);
+
+        const { error, value } = ics.createEvents(events);
+
+        console.log(value, error);
+
+        await writeFile("files/react-conf-2018-schedule.ics", value);
     })();
 } catch(err) {
     console.log(err);
